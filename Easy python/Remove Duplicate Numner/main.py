@@ -1,7 +1,0 @@
-s="Salom"
-t="Saloms"
-
-
-
-
-
