@@ -1,7 +1,13 @@
 class Solution:
-    def isPowerOfThree(self, n: int) -> bool:
-        return n in [3 ** x for x in range(20)]
-print(Solution.isPowerOfThree(Solution,1))
+    def countConsistentStrings(self, allowed: str, words: list[str]) -> int:
+        count=0
+        for i in words:
+            for j in i:
+                if j in allowed:
+
+
+
+# print(Solution.countConsistentStrings(Solution,"abc", ["a","b","c","ab","ac","bc","abc"]))
 
 
 
